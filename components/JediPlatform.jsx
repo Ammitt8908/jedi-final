@@ -16,12 +16,10 @@ const JediPlatform = () => {
   const [trialVideosUsed, setTrialVideosUsed] = useState(0);
   const fileInputRef = useRef(null);
 
-  // Monthly video limits by plan - PROFITABLE MODEL (UPDATED PRICING)
   const videoLimits = {
     'free-trial': 1,      // 1 video/month free (very limited)
     'pro': 30,            // $79/month - 30 videos = $2.63 per video
     'creator': 100,       // $179/month - 100 videos = $1.79 per video
-    'founder': 200,       // Lifetime free (you only) - 200 videos
   };
 
   const handleLogout = () => {
@@ -329,17 +327,14 @@ const JediPlatform = () => {
               fontWeight: '500',
               marginBottom: '0.5rem',
               color: 'var(--color-text-primary)',
-            }}>👑 Founder Plan</h3>
             <p style={{
               fontSize: '14px',
               fontWeight: '500',
               color: 'var(--color-text-info)',
               marginBottom: '0.5rem',
-            }}>500 videos/month • Lifetime FREE</p>
             <p style={{
               fontSize: '12px',
               color: 'var(--color-text-secondary)',
-            }}>Exclusive for you - the platform creator</p>
           </div>
         </section>
       </div>
@@ -920,7 +915,6 @@ const JediPlatform = () => {
                   fontSize: '15px',
                   fontWeight: '500',
                   marginBottom: '1rem',
-                }}>Why These Prices?</h3>
                 <div style={{
                   fontSize: '13px',
                   color: 'var(--color-text-secondary)',
@@ -929,7 +923,6 @@ const JediPlatform = () => {
                   <p>✓ <strong>$49 Pro</strong> = $0.98/video (vs competitors $2-5/video)</p>
                   <p>✓ <strong>$99 Creator</strong> = $0.495/video (best value)</p>
                   <p>✓ Monthly limits keep costs predictable for everyone</p>
-                  <p>✓ You get unlimited quality with zero surprise costs</p>
                 </div>
               </div>
             </div>
@@ -1127,17 +1120,14 @@ const JediPlatform = () => {
               fontWeight: '500',
               marginBottom: '0.5rem',
               color: 'var(--color-text-primary)',
-            }}>👑 Founder Plan</h2>
             <p style={{
               fontSize: '16px',
               fontWeight: '500',
               marginBottom: '0.5rem',
               color: 'var(--color-text-info)',
-            }}>200 videos/month • Lifetime FREE</p>
             <p style={{
               fontSize: '14px',
               color: 'var(--color-text-secondary)',
-            }}>Exclusive benefit for platform creator (you)</p>
           </div>
 
           <div style={{
